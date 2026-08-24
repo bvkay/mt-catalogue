@@ -49,7 +49,7 @@ class Catalog:
                 return StationRow(s, self)
         return None
 
-    # -- validation (advisory, never blocking) --------------------------------
+    # -- validation (advisory) ------------------------------------------------
 
     def problems(self, schema=None) -> list:
         """Validation problems against the schema. `schema` is a dict, a path, or None to

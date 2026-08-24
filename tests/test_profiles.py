@@ -56,3 +56,9 @@ def test_an_id_outside_the_convention_resolves_nothing():
 def test_unknown_profile_name_is_an_error():
     with pytest.raises(ValueError):
         load("no-such-profile")
+
+
+def test_a_partial_local_mirror_reads_as_absence_not_an_error():
+    # a fixtures dir carries mtcat but no products tree; detail() returns None
+    cat = Catalog(str(FIX / "mtcat-ts-snapshot.json"), profile="ausmt")
+    assert cat.station("au.newer-volcanic-province-2019.C4").detail() is None

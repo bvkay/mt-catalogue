@@ -1,5 +1,5 @@
-"""Thin wrappers over catalogue documents. The raw dict is the record; wrappers add access,
-never shape. Unknown keys therefore survive every round trip."""
+"""Thin wrappers over catalogue documents. The raw dict is the record; wrappers only add
+access methods, so unknown keys survive round trips."""
 from __future__ import annotations
 
 
@@ -27,7 +27,7 @@ class Survey(Row):
 
 class StationRow(Row):
     """One mtcat stations[] row. detail() needs a portal profile: MTCAT declares no
-    station-detail route, so without a profile there is honestly nothing to fetch."""
+    station-detail route, so without a profile there is no URL to fetch."""
 
     def __init__(self, raw: dict, catalog):
         super().__init__(raw)
@@ -37,6 +37,12 @@ class StationRow(Row):
         url = self._catalog._detail_url(self.raw)
         if url is None:
             return None
+        # A local catalogue may be a partial mirror, so a missing sibling file returns None.
+        # Over http the fetch stays strict and failures raise.
+        if not url.startswith(("http://", "https://")):
+            from pathlib import Path
+            if not Path(url).exists():
+                return None
         return StationDetail(self._catalog._fetch_json(url), self._catalog)
 
 

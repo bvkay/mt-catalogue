@@ -1,5 +1,5 @@
-"""Forward tolerance: documents from newer minor versions, unknown keys, absent optionals.
-A client that breaks on additions forces every portal upgrade to be a coordinated flag day."""
+"""Forward tolerance: documents from newer minor versions, unknown keys, and absent
+optionals must all load."""
 import json
 from pathlib import Path
 
@@ -36,7 +36,7 @@ def test_absent_optionals_read_as_absent_not_errors():
     assert row.get("no_such_key") is None
 
 
-def test_validation_is_advisory_never_a_constructor_failure(tmp_path):
+def test_validation_is_advisory_and_construction_succeeds(tmp_path):
     p = tmp_path / "bad.json"
     p.write_text(json.dumps({"portal": {"portal_id": 7}, "stations": "wrong"}), encoding="utf-8")
     cat = Catalog(str(p))

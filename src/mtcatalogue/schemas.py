@@ -1,5 +1,5 @@
-"""Schema fetch and advisory validation. Validation never blocks: a document from a newer
-minor version must load, so problems are reported, not raised."""
+"""Schema fetch and advisory validation. A document from a newer minor version must load,
+so validation reports problems rather than raising."""
 from __future__ import annotations
 
 _cache: dict = {}
