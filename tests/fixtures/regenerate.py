@@ -8,7 +8,10 @@ import urllib.request
 HERE = pathlib.Path(__file__).parent
 BASE = "https://ausmt.auscope.org.au/data/"
 KEEP = {"newer-volcanic-province-2019", "vulcan-2024-25", "auslamp-nsw-2016-21"}
+# The -ts fixtures were first cut from the THREDDS lane's certified pre-release build; from the
+# first post-deploy run of this script they come from live like everything else.
 STATIONS = [("station-A23.json", "products/auslamp-nsw-2016-21/A23/station.json"),
+            ("station-C4-ts.json", "products/newer-volcanic-province-2019/C4/station.json"),
             ("station-Vul24-13.json", "products/vulcan-2024-25/Vul24-13/station.json"),
             ("station-C4.json", "products/newer-volcanic-province-2019/C4/station.json")]
 SCHEMAS = [("mtcat.schema.snapshot.json", "schemas/mtcat/2.0/mtcat.schema.json"),

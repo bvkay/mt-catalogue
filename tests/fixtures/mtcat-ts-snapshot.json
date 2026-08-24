@@ -1,0 +1,3088 @@
+{
+ "portal": {
+  "portal_id": "ausmt",
+  "portal_name": "AusMT \u2014 Australia's Magnetotelluric Data Portal",
+  "schema": "mtcat",
+  "version": "2.0",
+  "schema_url": "mtcat.schema.json",
+  "metadata_license": "CC0-1.0",
+  "generated_at": "2026-08-24T09:44:33Z"
+ },
+ "surveys": [
+  {
+   "survey_id": "auslamp-nsw-2016-21",
+   "title": "AusLAMP New South Wales",
+   "organisation": "Geoscience Australia",
+   "organisation_ror": "https://ror.org/04ge02x20",
+   "country": "Australia",
+   "version": "1.0.0",
+   "collection_id": "auslamp",
+   "license": "CC-BY-4.0",
+   "access": "open",
+   "bbox": {
+    "west": 140.959335,
+    "south": -37.023753,
+    "east": 153.539458,
+    "north": -28.476055
+   },
+   "centroid": {
+    "latitude": -32.749904,
+    "longitude": 147.249396
+   },
+   "n_stations": 296,
+   "data_types": {
+    "LPMT": 296
+   },
+   "period_min_s": 5.0,
+   "period_max_s": 100000.0,
+   "n_stations_tipper": 289,
+   "year_start": 2016,
+   "year_end": 2021,
+   "description": "REPLACE with a short survey description.\n",
+   "subjects": [
+    {
+     "code": "370602",
+     "scheme": "ANZSRC-FoR-2020",
+     "label": "Electrical and electromagnetic methods in geophysics",
+     "uri": "https://linked.data.gov.au/def/anzsrc-for/2020/370602"
+    }
+   ],
+   "attribution": {
+    "declared_by": "Ben",
+    "declared_date": "2026-08-14"
+   },
+   "related_identifiers": [
+    {
+     "identifier": "10.26186/148544",
+     "identifier_type": "DOI",
+     "custodian": "GA",
+     "identifies": "raw_packed"
+    },
+    {
+     "identifier": "http://dx.doi.org/10.11636/Record.2020.011",
+     "identifier_type": "DOI",
+     "custodian": "GA"
+    },
+    {
+     "identifier": "10.26186/131889",
+     "identifier_type": "DOI",
+     "custodian": "GA",
+     "identifies": "level3"
+    }
+   ],
+   "creators": [
+    {
+     "name": "Darren Kyi",
+     "name_type": "person"
+    },
+    {
+     "name": "Wenping Jiang",
+     "name_type": "person",
+     "orcid": "0000-0003-3168-1120"
+    },
+    {
+     "name": "Adrian Hitchman",
+     "name_type": "person",
+     "orcid": "0000-0002-2901-8381"
+    },
+    {
+     "name": "Ned Stolz",
+     "name_type": "person"
+    }
+   ],
+   "contributors": [
+    {
+     "name": "Jingming Duan",
+     "name_type": "person",
+     "role": "ProjectLeader",
+     "orcid": "0000-0003-4480-9584"
+    },
+    {
+     "name": "AusMT",
+     "name_type": "organisation",
+     "role": "HostingInstitution"
+    }
+   ]
+  },
+  {
+   "survey_id": "newer-volcanic-province-2019",
+   "title": "Newer Volcanic Province 2019",
+   "organisation": "Adelaide University",
+   "organisation_ror": "https://ror.org/028g18b61",
+   "country": "Australia",
+   "version": "1.0.3",
+   "license": "CC-BY-4.0",
+   "access": "open",
+   "bbox": {
+    "west": 139.762803,
+    "south": -38.238567,
+    "east": 142.143678,
+    "north": -36.28065
+   },
+   "centroid": {
+    "latitude": -37.259608,
+    "longitude": 140.95324
+   },
+   "n_stations": 49,
+   "data_types": {
+    "BBMT": 49
+   },
+   "period_min_s": 0.005012,
+   "period_max_s": 6309.574211,
+   "n_stations_tipper": 0,
+   "year_start": 2019,
+   "year_end": 2019,
+   "description": "This collection comprises 54 broadband magnetotelluric (MT) sites acquired across the Newer Volcanic Province in South Australia and Victoria, in August 2019. Sites were deployed in a regular grid at roughly 25 km spacing to infill and enhance existing AusLAMP and state-based coverage, sharpening constraints on the three-dimensional lithospheric electrical structure beneath the province.\n",
+   "subjects": [
+    {
+     "code": "370602",
+     "scheme": "ANZSRC-FoR-2020",
+     "label": "Electrical and electromagnetic methods in geophysics",
+     "uri": "https://linked.data.gov.au/def/anzsrc-for/2020/370602"
+    }
+   ],
+   "attribution": {
+    "declared_by": "Ben Kay",
+    "declared_date": "2026-07-25"
+   },
+   "related_identifiers": [
+    {
+     "identifier": "10.25914/xswv-5069",
+     "identifier_type": "DOI",
+     "relation": "IsPartOf",
+     "custodian": "NCI",
+     "identifies": "collection"
+    },
+    {
+     "identifier": "10.25914/pa35-es20",
+     "identifier_type": "DOI",
+     "relation": "IsPartOf",
+     "custodian": "NCI",
+     "identifies": "collection"
+    },
+    {
+     "identifier": "10.25914/7vwr-da74",
+     "identifier_type": "DOI",
+     "relation": "IsDerivedFrom",
+     "custodian": "NCI",
+     "identifies": "raw_packed"
+    },
+    {
+     "identifier": "10.25914/kyst-xw53",
+     "identifier_type": "DOI",
+     "relation": "IsDerivedFrom",
+     "custodian": "NCI",
+     "identifies": "raw_packed"
+    },
+    {
+     "identifier": "10.25914/wxkq-hj14",
+     "identifier_type": "DOI",
+     "relation": "IsVariantFormOf",
+     "custodian": "NCI",
+     "identifies": "level2"
+    },
+    {
+     "identifier": "10.25914/z3bz-dm23",
+     "identifier_type": "DOI",
+     "relation": "IsVariantFormOf",
+     "custodian": "NCI",
+     "identifies": "level2"
+    }
+   ],
+   "creators": [
+    {
+     "name": "Samuel Jennings",
+     "name_type": "person",
+     "orcid": "0000-0003-3762-7336"
+    },
+    {
+     "name": "Ben Kay",
+     "name_type": "person",
+     "orcid": "0000-0002-9738-7277"
+    },
+    {
+     "name": "Graham Heinson",
+     "name_type": "person",
+     "orcid": "0000-0001-7106-0789"
+    },
+    {
+     "name": "Goran Boren",
+     "name_type": "person",
+     "orcid": "0000-0002-7743-7812"
+    }
+   ],
+   "contributors": [
+    {
+     "name": "Samuel Jennings",
+     "name_type": "person",
+     "role": "ProjectLeader",
+     "orcid": "0000-0003-3762-7336"
+    },
+    {
+     "name": "Samuel Jennings",
+     "name_type": "person",
+     "role": "ProjectMember",
+     "orcid": "0000-0003-3762-7336"
+    },
+    {
+     "name": "Samuel Jennings",
+     "name_type": "person",
+     "role": "DataCollector",
+     "orcid": "0000-0003-3762-7336"
+    },
+    {
+     "name": "Ben Kay",
+     "name_type": "person",
+     "role": "ProjectMember",
+     "orcid": "0000-0002-9738-7277"
+    },
+    {
+     "name": "Ben Kay",
+     "name_type": "person",
+     "role": "DataCollector",
+     "orcid": "0000-0002-9738-7277"
+    },
+    {
+     "name": "Ben Kay",
+     "name_type": "person",
+     "role": "DataCurator",
+     "orcid": "0000-0002-9738-7277"
+    },
+    {
+     "name": "Graham Heinson",
+     "name_type": "person",
+     "role": "ProjectLeader",
+     "orcid": "0000-0001-7106-0789"
+    },
+    {
+     "name": "Graham Heinson",
+     "name_type": "person",
+     "role": "ProjectMember",
+     "orcid": "0000-0001-7106-0789"
+    },
+    {
+     "name": "Graham Heinson",
+     "name_type": "person",
+     "role": "ContactPerson",
+     "orcid": "0000-0001-7106-0789"
+    },
+    {
+     "name": "Graham Heinson",
+     "name_type": "person",
+     "role": "RightsHolder",
+     "orcid": "0000-0001-7106-0789"
+    },
+    {
+     "name": "Goran Boren",
+     "name_type": "person",
+     "role": "ProjectMember",
+     "orcid": "0000-0002-7743-7812"
+    },
+    {
+     "name": "Goran Boren",
+     "name_type": "person",
+     "role": "DataCollector",
+     "orcid": "0000-0002-7743-7812"
+    },
+    {
+     "name": "Matthew Linke",
+     "name_type": "person",
+     "role": "DataCollector"
+    },
+    {
+     "name": "Nigel Rees",
+     "name_type": "person",
+     "role": "DataCurator",
+     "orcid": "0000-0001-6216-1262"
+    },
+    {
+     "name": "Nigel Rees",
+     "name_type": "person",
+     "role": "Distributor",
+     "orcid": "0000-0001-6216-1262"
+    },
+    {
+     "name": "Hannes Hollmann",
+     "name_type": "person",
+     "role": "DataCurator",
+     "orcid": "0000-0001-6113-1627"
+    },
+    {
+     "name": "Hannes Hollmann",
+     "name_type": "person",
+     "role": "Distributor",
+     "orcid": "0000-0001-6113-1627"
+    },
+    {
+     "name": "AusMT",
+     "name_type": "organisation",
+     "role": "HostingInstitution"
+    }
+   ],
+   "n_stations_time_series_verified": 49
+  },
+  {
+   "survey_id": "vulcan-2024-25",
+   "title": "Vulcan 2024-25",
+   "organisation": "Adelaide University",
+   "organisation_ror": "https://ror.org/00892tw58",
+   "country": "Australia",
+   "version": "1.0.4",
+   "license": "CC-BY-4.0",
+   "access": "embargoed",
+   "bbox": {
+    "west": 137.023794,
+    "south": -30.19069,
+    "east": 137.111375,
+    "north": -30.097419
+   },
+   "centroid": {
+    "latitude": -30.144054,
+    "longitude": 137.067585
+   },
+   "n_stations": 20,
+   "data_types": {
+    "BBMT": 20
+   },
+   "period_min_s": 0.005,
+   "period_max_s": 3173.192867,
+   "n_stations_tipper": 0,
+   "year_start": 2024,
+   "year_end": 2025,
+   "description": "A broadband magnetotelluric survey was conducted over the 2024 and 2025 field seasons to extend the Vulcan 2022 grid to the north-east, across the Vulcan iron oxide copper-gold (IOCG) prospect on the Stuart Shelf, in the Olympic Cu-Au Province of South Australia. The survey adds 20 MT stations at a nominal 2 km spacing, complementing the approximately 1 km grid of the 2022 survey and enlarging the imaged footprint of the electrical resistivity structure beneath the sedimentary cover of the prospect area; the extension ties directly into the 2022 stations so the two surveys can be processed and modelled as a single dataset. Together with Vulcan 2022, the combined grid supports integrated geophysical interpretation of the concealed IOCG system.",
+   "subjects": [
+    {
+     "code": "370602",
+     "scheme": "ANZSRC-FoR-2020",
+     "label": "Electrical and electromagnetic methods in geophysics",
+     "uri": "https://linked.data.gov.au/def/anzsrc-for/2020/370602"
+    }
+   ],
+   "creators": [
+    {
+     "name": "Ben Kay",
+     "name_type": "person",
+     "orcid": "0000-0002-9738-7277"
+    },
+    {
+     "name": "Graham Heinson",
+     "name_type": "person",
+     "orcid": "0000-0001-7106-0789"
+    },
+    {
+     "name": "Goran Boren",
+     "name_type": "person",
+     "orcid": "0000-0002-7743-7812"
+    },
+    {
+     "name": "Hamid Bizhani",
+     "name_type": "person",
+     "orcid": "0009-0008-5611-8418"
+    }
+   ],
+   "contributors": [
+    {
+     "name": "Ben Kay",
+     "name_type": "person",
+     "role": "ProjectLeader",
+     "orcid": "0000-0002-9738-7277"
+    },
+    {
+     "name": "Ben Kay",
+     "name_type": "person",
+     "role": "ProjectMember",
+     "orcid": "0000-0002-9738-7277"
+    },
+    {
+     "name": "Ben Kay",
+     "name_type": "person",
+     "role": "DataCollector",
+     "orcid": "0000-0002-9738-7277"
+    },
+    {
+     "name": "Ben Kay",
+     "name_type": "person",
+     "role": "ContactPerson",
+     "orcid": "0000-0002-9738-7277"
+    },
+    {
+     "name": "Graham Heinson",
+     "name_type": "person",
+     "role": "ProjectLeader",
+     "orcid": "0000-0001-7106-0789"
+    },
+    {
+     "name": "Graham Heinson",
+     "name_type": "person",
+     "role": "ProjectMember",
+     "orcid": "0000-0001-7106-0789"
+    },
+    {
+     "name": "Graham Heinson",
+     "name_type": "person",
+     "role": "RightsHolder",
+     "orcid": "0000-0001-7106-0789"
+    },
+    {
+     "name": "Goran Boren",
+     "name_type": "person",
+     "role": "ProjectMember",
+     "orcid": "0000-0002-7743-7812"
+    },
+    {
+     "name": "Goran Boren",
+     "name_type": "person",
+     "role": "DataCollector",
+     "orcid": "0000-0002-7743-7812"
+    },
+    {
+     "name": "Hamid Bizhani",
+     "name_type": "person",
+     "role": "ProjectMember",
+     "orcid": "0009-0008-5611-8418"
+    },
+    {
+     "name": "Hamid Bizhani",
+     "name_type": "person",
+     "role": "DataCollector",
+     "orcid": "0009-0008-5611-8418"
+    },
+    {
+     "name": "AusMT",
+     "name_type": "organisation",
+     "role": "HostingInstitution"
+    }
+   ],
+   "embargo_until": "2027-02-01"
+  }
+ ],
+ "stations": [
+  {
+   "station_id": "au.auslamp-nsw-2016-21.A23",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -28.525998,
+   "longitude": 152.0259,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.A24",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -28.492836,
+   "longitude": 152.493371,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.A25",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -28.527008,
+   "longitude": 152.979954,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.A26",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -28.476055,
+   "longitude": 153.539458,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B1",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.002589,
+   "longitude": 141.029724,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.012342,
+   "longitude": 145.531954,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.027848,
+   "longitude": 145.990828,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.000115,
+   "longitude": 146.451426,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.018988,
+   "longitude": 147.018465,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.039857,
+   "longitude": 147.996792,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.008292,
+   "longitude": 148.484158,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.029736,
+   "longitude": 148.986564,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.010313,
+   "longitude": 149.464204,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.039344,
+   "longitude": 150.01323,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B2",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.000497,
+   "longitude": 141.514449,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -28.989071,
+   "longitude": 150.53187,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B21",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -28.988313,
+   "longitude": 151.035744,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B22",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.038632,
+   "longitude": 151.514343,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B23",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.003855,
+   "longitude": 152.047932,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B24R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -28.985597,
+   "longitude": 152.541625,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B25",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -28.996258,
+   "longitude": 152.995483,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B3",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.005783,
+   "longitude": 141.992429,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B5",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.001603,
+   "longitude": 143.032576,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.001633,
+   "longitude": 143.488539,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.00875,
+   "longitude": 144.005001,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B8",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.01825,
+   "longitude": 144.488444,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.B9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.002498,
+   "longitude": 145.006674,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.513684,
+   "longitude": 145.542468,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.508987,
+   "longitude": 146.062041,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.50771,
+   "longitude": 146.586034,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.501436,
+   "longitude": 146.998476,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C14",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.446259,
+   "longitude": 147.519996,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.478393,
+   "longitude": 147.995126,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.490531,
+   "longitude": 148.497522,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.493322,
+   "longitude": 149.025851,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.516805,
+   "longitude": 149.464216,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.461864,
+   "longitude": 149.991268,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.476002,
+   "longitude": 150.47959,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C21",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.520914,
+   "longitude": 151.003283,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C22",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.466536,
+   "longitude": 151.526632,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C23",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.500354,
+   "longitude": 152.044411,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C24",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.520228,
+   "longitude": 152.464183,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C3",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.517889,
+   "longitude": 142.030516,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C4",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.530808,
+   "longitude": 142.496626,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C5",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.518825,
+   "longitude": 142.992445,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.500492,
+   "longitude": 143.443708,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.491281,
+   "longitude": 143.983454,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C8",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.474536,
+   "longitude": 144.503685,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.C9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.490567,
+   "longitude": 144.959524,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.973678,
+   "longitude": 145.548326,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.043837,
+   "longitude": 146.048673,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.999346,
+   "longitude": 146.496893,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.015527,
+   "longitude": 146.983977,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D14",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.989986,
+   "longitude": 147.468146,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.017154,
+   "longitude": 147.992499,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.959789,
+   "longitude": 148.524299,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.991525,
+   "longitude": 149.042358,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D18R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.064031,
+   "longitude": 149.53066,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.980784,
+   "longitude": 149.975669,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.986262,
+   "longitude": 150.539453,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D21",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.035442,
+   "longitude": 150.987164,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D22",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.038125,
+   "longitude": 151.514888,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D23",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.010379,
+   "longitude": 151.977496,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D3",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.003425,
+   "longitude": 141.988204,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D4",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.037764,
+   "longitude": 142.508101,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D5",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.015978,
+   "longitude": 143.01875,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.989233,
+   "longitude": 144.030039,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D8",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -29.9925,
+   "longitude": 144.507913,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.D9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.005767,
+   "longitude": 145.043751,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.570123,
+   "longitude": 145.495592,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.530768,
+   "longitude": 145.969068,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.507946,
+   "longitude": 146.488273,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.502372,
+   "longitude": 146.969665,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E14R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.511376,
+   "longitude": 147.537662,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.497577,
+   "longitude": 148.043354,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.51329,
+   "longitude": 148.503802,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.509164,
+   "longitude": 149.015836,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.472939,
+   "longitude": 149.458669,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.503074,
+   "longitude": 150.040036,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.500106,
+   "longitude": 150.491019,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E20R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.495113,
+   "longitude": 150.546464,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E21",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.511821,
+   "longitude": 151.014131,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E22",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.461713,
+   "longitude": 151.522627,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E23",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.590272,
+   "longitude": 151.985521,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E24",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.497326,
+   "longitude": 152.364836,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E25R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.506256,
+   "longitude": 152.929212,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E3",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.480983,
+   "longitude": 142.003066,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E4",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.482875,
+   "longitude": 142.521315,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E5",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.512342,
+   "longitude": 143.005964,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.516383,
+   "longitude": 143.482296,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.506842,
+   "longitude": 143.993922,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E8",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.487089,
+   "longitude": 144.460915,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.E9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.502848,
+   "longitude": 144.956321,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F1",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.996997,
+   "longitude": 140.997191,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.031989,
+   "longitude": 145.465106,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.008354,
+   "longitude": 146.022442,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F12R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.955693,
+   "longitude": 146.506474,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.005836,
+   "longitude": 147.035626,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F14",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.981342,
+   "longitude": 147.461626,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.039027,
+   "longitude": 148.001955,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.96357,
+   "longitude": 148.509111,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.020381,
+   "longitude": 148.995875,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.013046,
+   "longitude": 149.560847,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.026705,
+   "longitude": 150.023965,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.03899,
+   "longitude": 150.500227,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F21",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.028275,
+   "longitude": 151.043473,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F22",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.988383,
+   "longitude": 151.53981,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F25",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.995556,
+   "longitude": 153.028411,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F3",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.001225,
+   "longitude": 141.996854,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F4",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.993217,
+   "longitude": 142.491376,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F5",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.998167,
+   "longitude": 142.963025,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.005106,
+   "longitude": 143.500529,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.000958,
+   "longitude": 143.973489,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F8",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.031253,
+   "longitude": 144.467401,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.F9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -30.990992,
+   "longitude": 145.027578,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G1",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.506561,
+   "longitude": 140.999313,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.515626,
+   "longitude": 145.47603,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.536768,
+   "longitude": 146.025585,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.490041,
+   "longitude": 146.551914,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.487583,
+   "longitude": 147.042322,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G14",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.489048,
+   "longitude": 147.508667,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.507877,
+   "longitude": 148.017805,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.543793,
+   "longitude": 148.521587,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.522806,
+   "longitude": 148.992102,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.514193,
+   "longitude": 149.462795,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.470339,
+   "longitude": 150.025864,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G2",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.494317,
+   "longitude": 141.510924,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.486453,
+   "longitude": 150.546999,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G21",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.501531,
+   "longitude": 151.00784,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G22",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.4757,
+   "longitude": 151.475035,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G23",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.458917,
+   "longitude": 151.921665,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G24R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.470647,
+   "longitude": 152.52067,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G3",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.503933,
+   "longitude": 142.031629,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G4",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.500633,
+   "longitude": 142.497573,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G5",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.477361,
+   "longitude": 142.956114,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.491031,
+   "longitude": 143.508649,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.469617,
+   "longitude": 144.03663,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G8",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.505978,
+   "longitude": 144.466409,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.G9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.47152,
+   "longitude": 145.005467,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.997193,
+   "longitude": 145.50244,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.003721,
+   "longitude": 145.996943,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.000604,
+   "longitude": 146.531527,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.014183,
+   "longitude": 146.970102,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H14",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.002601,
+   "longitude": 147.466611,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.954071,
+   "longitude": 147.9543,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.002346,
+   "longitude": 148.51867,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.037104,
+   "longitude": 148.992662,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.972807,
+   "longitude": 149.501513,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.990578,
+   "longitude": 150.00967,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.028964,
+   "longitude": 150.519648,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H20R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.035378,
+   "longitude": 150.518001,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H21",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.942185,
+   "longitude": 151.04611,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H22",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.025986,
+   "longitude": 151.437108,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H23",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.003971,
+   "longitude": 152.020081,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H24",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.987409,
+   "longitude": 152.498514,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H3",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.970167,
+   "longitude": 142.00186,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H4",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.996917,
+   "longitude": 142.510954,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H5",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.001769,
+   "longitude": 142.992641,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.999436,
+   "longitude": 143.500882,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.006747,
+   "longitude": 144.004602,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.H9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -31.987664,
+   "longitude": 145.042713,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.487145,
+   "longitude": 145.53105,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.512582,
+   "longitude": 145.945796,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.498918,
+   "longitude": 146.496721,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.506697,
+   "longitude": 147.002661,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I14",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.513568,
+   "longitude": 147.474895,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.474152,
+   "longitude": 147.971799,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.485176,
+   "longitude": 148.496635,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I18R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.468468,
+   "longitude": 149.439487,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.520821,
+   "longitude": 150.040849,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.47967,
+   "longitude": 150.508167,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I21",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.538789,
+   "longitude": 150.909809,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I22",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.513872,
+   "longitude": 151.512187,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I23",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.485129,
+   "longitude": 151.976418,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I23R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.539329,
+   "longitude": 151.938979,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I3",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.478383,
+   "longitude": 142.02374,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I4",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.500442,
+   "longitude": 142.497906,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I5",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.519928,
+   "longitude": 143.001753,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.496242,
+   "longitude": 143.503171,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.504567,
+   "longitude": 144.057824,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I8R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.503025,
+   "longitude": 144.499091,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.I9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.493642,
+   "longitude": 145.008685,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.019712,
+   "longitude": 145.514508,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.980132,
+   "longitude": 146.02523,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.992927,
+   "longitude": 146.525069,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.972675,
+   "longitude": 146.989507,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J14",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.975404,
+   "longitude": 147.511497,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.993769,
+   "longitude": 148.009009,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.996377,
+   "longitude": 148.547104,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.99396,
+   "longitude": 149.009972,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.002263,
+   "longitude": 149.502524,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.984694,
+   "longitude": 150.575137,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J21",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.998864,
+   "longitude": 151.018214,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J22",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.964181,
+   "longitude": 151.50319,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J3",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.025397,
+   "longitude": 141.97331,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J4",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.999467,
+   "longitude": 142.49687,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J5",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.015919,
+   "longitude": 143.000469,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -32.976619,
+   "longitude": 143.448954,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.060828,
+   "longitude": 144.005577,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J8",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.026017,
+   "longitude": 144.498969,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.J9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.014001,
+   "longitude": 145.010821,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.590101,
+   "longitude": 145.458813,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.531171,
+   "longitude": 146.055426,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.511916,
+   "longitude": 146.52699,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.522933,
+   "longitude": 147.034366,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K14r",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.490101,
+   "longitude": 147.501915,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.499022,
+   "longitude": 147.987691,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K16r",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.494399,
+   "longitude": 148.497817,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.496382,
+   "longitude": 148.951866,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.532397,
+   "longitude": 149.498033,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K2",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.495269,
+   "longitude": 141.471282,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.494435,
+   "longitude": 150.509111,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K21",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.453709,
+   "longitude": 151.023606,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K3",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.525433,
+   "longitude": 141.98384,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K4",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.499722,
+   "longitude": 142.497556,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K5",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.502983,
+   "longitude": 143.011808,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.517308,
+   "longitude": 143.469279,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.497506,
+   "longitude": 144.005851,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K8R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.522689,
+   "longitude": 144.507407,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.K9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.494412,
+   "longitude": 145.007784,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L1",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.019344,
+   "longitude": 140.959335,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.003598,
+   "longitude": 145.457274,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.97461,
+   "longitude": 146.029425,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.002821,
+   "longitude": 146.459943,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.972414,
+   "longitude": 147.007251,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L14",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.981926,
+   "longitude": 147.478705,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.001469,
+   "longitude": 147.99979,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.988388,
+   "longitude": 148.503382,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.005946,
+   "longitude": 148.974657,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.975555,
+   "longitude": 150.051509,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L2",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.035569,
+   "longitude": 141.580488,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.994619,
+   "longitude": 150.482082,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L3",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.988997,
+   "longitude": 141.987759,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L4R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.993083,
+   "longitude": 142.509564,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L5R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.987561,
+   "longitude": 143.014521,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.992989,
+   "longitude": 143.501201,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.000256,
+   "longitude": 143.998223,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L8R",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -33.987095,
+   "longitude": 144.512059,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.L9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.00152,
+   "longitude": 145.00255,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.479981,
+   "longitude": 145.514889,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.52666,
+   "longitude": 146.002508,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.488127,
+   "longitude": 146.486888,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.449078,
+   "longitude": 147.094786,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M14",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.469974,
+   "longitude": 147.543518,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.529214,
+   "longitude": 148.033614,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.515599,
+   "longitude": 148.510964,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.503761,
+   "longitude": 149.003809,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.491389,
+   "longitude": 149.512518,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.462174,
+   "longitude": 149.918839,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.510755,
+   "longitude": 150.460362,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M4",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.484222,
+   "longitude": 142.449567,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M5",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.463478,
+   "longitude": 143.000546,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.475289,
+   "longitude": 143.522348,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.492942,
+   "longitude": 144.041878,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M8",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.431989,
+   "longitude": 144.508259,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.M9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.504139,
+   "longitude": 145.066621,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.917734,
+   "longitude": 145.499019,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.005774,
+   "longitude": 145.954977,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.986544,
+   "longitude": 146.476498,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.004806,
+   "longitude": 147.051419,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N14",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.050638,
+   "longitude": 147.481339,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.991534,
+   "longitude": 148.018948,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.018655,
+   "longitude": 148.50925,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.94567,
+   "longitude": 149.467427,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.051042,
+   "longitude": 150.013288,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N20",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -34.976035,
+   "longitude": 150.561766,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N6",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.032997,
+   "longitude": 143.540461,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.009353,
+   "longitude": 143.986962,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N8",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.030473,
+   "longitude": 144.454578,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.N9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.001945,
+   "longitude": 144.892519,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O10",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.473184,
+   "longitude": 145.491313,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.464724,
+   "longitude": 146.007983,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O12",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.515196,
+   "longitude": 146.461619,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.501472,
+   "longitude": 147.060558,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O14",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.516868,
+   "longitude": 147.551129,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.488778,
+   "longitude": 147.999598,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.486641,
+   "longitude": 148.499697,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.498294,
+   "longitude": 148.984012,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.565551,
+   "longitude": 149.445477,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.48655,
+   "longitude": 149.948241,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O7",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.501494,
+   "longitude": 144.019692,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O8",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.468217,
+   "longitude": 144.444036,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.O9",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.545417,
+   "longitude": 144.980315,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.P11",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.951304,
+   "longitude": 145.950183,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.P13",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.9855,
+   "longitude": 146.972973,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.P15",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -35.996584,
+   "longitude": 148.001731,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.P16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -36.002686,
+   "longitude": 148.511256,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.P17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -36.032375,
+   "longitude": 148.968458,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.P18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -36.023582,
+   "longitude": 149.50493,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.P19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -36.050679,
+   "longitude": 150.005629,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.Q16",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -36.524903,
+   "longitude": 148.466424,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.Q17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -36.494939,
+   "longitude": 148.989966,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.Q18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -36.517568,
+   "longitude": 149.483212,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.Q19",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -36.504223,
+   "longitude": 150.00393,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.R17",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -37.023753,
+   "longitude": 148.985627,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.auslamp-nsw-2016-21.R18",
+   "survey_id": "auslamp-nsw-2016-21",
+   "latitude": -36.993232,
+   "longitude": 149.502096,
+   "data_type": "LPMT"
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.A1",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.28065,
+   "longitude": 140.252869,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.A2",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.431256,
+   "longitude": 140.479858,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.A3",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.561275,
+   "longitude": 140.749358,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.A4",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.655861,
+   "longitude": 140.954758,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.A5",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.824958,
+   "longitude": 141.259767,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.A7",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.050011,
+   "longitude": 141.690994,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.A8",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.207492,
+   "longitude": 141.945222,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.A9",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.307142,
+   "longitude": 142.143678,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.B1",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.476456,
+   "longitude": 140.175553,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.B2",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.578444,
+   "longitude": 140.245742,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.B3",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.720397,
+   "longitude": 140.571792,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.B4",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.886497,
+   "longitude": 140.828919,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.B5",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.983597,
+   "longitude": 141.063339,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.B6",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.128953,
+   "longitude": 141.337036,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.B7",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.223281,
+   "longitude": 141.499467,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.B8",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.376889,
+   "longitude": 141.757539,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.B9",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.526119,
+   "longitude": 142.0,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.C2",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.806728,
+   "longitude": 140.231628,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.C3",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.963172,
+   "longitude": 140.45375,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.C4",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.0699,
+   "longitude": 140.678117,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.C5",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.191036,
+   "longitude": 140.880692,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.C6",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.318508,
+   "longitude": 141.146911,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.C7",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.429692,
+   "longitude": 141.339706,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.C8",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.542714,
+   "longitude": 141.616653,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.C9",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.674644,
+   "longitude": 141.823258,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.D1",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.841264,
+   "longitude": 139.916667,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.D2",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.0037,
+   "longitude": 140.110244,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.D3",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.121136,
+   "longitude": 140.325744,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.D5",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.403947,
+   "longitude": 140.7966,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.D6",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.518775,
+   "longitude": 141.006347,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.D7",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.631181,
+   "longitude": 141.227494,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.D8",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.760242,
+   "longitude": 141.488297,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.D9",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.871553,
+   "longitude": 141.7,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.E1",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -36.990303,
+   "longitude": 139.762803,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.E2",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.176781,
+   "longitude": 139.9,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.E3",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.288131,
+   "longitude": 140.166667,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.E4",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.439347,
+   "longitude": 140.366242,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.E5",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.569053,
+   "longitude": 140.563186,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.E6",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.704994,
+   "longitude": 140.792161,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.E7",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.831458,
+   "longitude": 141.066667,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.E8",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.955106,
+   "longitude": 141.294997,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.E9",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -38.055797,
+   "longitude": 141.464128,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.F2",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.362817,
+   "longitude": 140.037719,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.F4",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.579128,
+   "longitude": 140.290939,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.F5",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.745281,
+   "longitude": 140.510772,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.F7",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -38.006794,
+   "longitude": 140.938339,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.F8",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -38.073228,
+   "longitude": 141.173539,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.F9",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -38.238567,
+   "longitude": 141.388931,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.newer-volcanic-province-2019.G6",
+   "survey_id": "newer-volcanic-province-2019",
+   "latitude": -37.959111,
+   "longitude": 140.554778,
+   "data_type": "BBMT",
+   "has_time_series": true
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul24-13",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.188151,
+   "longitude": 137.089487,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul24-14",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.16982,
+   "longitude": 137.090154,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul24-15",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.152526,
+   "longitude": 137.089091,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul24-17",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.114413,
+   "longitude": 137.088903,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul24-19",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.19069,
+   "longitude": 137.110205,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul24-20",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.169747,
+   "longitude": 137.111375,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul24-21",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.149969,
+   "longitude": 137.109419,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul24-22",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.132741,
+   "longitude": 137.109076,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul24-23",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.110384,
+   "longitude": 137.106641,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul24-24",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.097786,
+   "longitude": 137.106363,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul25_004",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.136504,
+   "longitude": 137.026854,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul25_005",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.119369,
+   "longitude": 137.023794,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul25_007",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.131641,
+   "longitude": 137.046501,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul25_008",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.11689,
+   "longitude": 137.047107,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul25_009",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.097419,
+   "longitude": 137.04673,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul25_010",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.134506,
+   "longitude": 137.067696,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul25_011",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.116267,
+   "longitude": 137.066839,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul25_012",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.103254,
+   "longitude": 137.067957,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul25_016",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.132179,
+   "longitude": 137.086167,
+   "data_type": "BBMT"
+  },
+  {
+   "station_id": "au.vulcan-2024-25.Vul25_018",
+   "survey_id": "vulcan-2024-25",
+   "latitude": -30.098229,
+   "longitude": 137.090116,
+   "data_type": "BBMT"
+  }
+ ],
+ "collections": [
+  {
+   "collection_id": "auslamp",
+   "title": "AusLAMP",
+   "type": "programme",
+   "status": "active",
+   "start_year": 2013,
+   "last_updated": "2026-07-12",
+   "description": "AusLAMP (Australian Lithospheric Architecture Magnetotelluric Project) is Australia\u2019s  ongoing national long-period magnetotelluric (MT) program. The collection contains  long-period MT surveys acquired across the Australian continent to investigate the electrical resistivity structure of the Australian lithosphere. The resulting models support research into lithospheric architecture, tectonic evolution, crustal and  mantle processes, while providing nationally consistent geophysical data for mineral, groundwater, geothermal, and energy resource exploration. In addition, AusLAMP resistivity models are increasingly used in space weather research, including modelling geomagnetically induced currents (GICs) and assessing the vulnerability of critical  infrastructure to geomagnetic storms. Developed through collaboration between Geoscience Australia, the Australian state and Northern Territory geological surveys, Adelaide University, University of Tasmania and AuScope, AusLAMP provides a nationally consistent MT dataset that supports geoscience research, precompetitive exploration, and the development of models for understanding Australia\u2019s subsurface and its response to space weather.",
+   "n_surveys": 14,
+   "n_stations": 1354,
+   "bbox": {
+    "west": 125.49529,
+    "south": -43.444933,
+    "east": 153.539458,
+    "north": -14.964189
+   },
+   "centroid": {
+    "latitude": -28.052187,
+    "longitude": 139.475303
+   }
+  }
+ ]
+}
