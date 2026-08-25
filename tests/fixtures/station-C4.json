@@ -57,7 +57,7 @@
    "mt_metadata": "1.0.9",
    "mth5": "0.6.8"
   },
-  "git_commit": "0d8f0d5d05cd19c0109c3b5c6f2774f1565b0a51",
+  "git_commit": "dc48b0caf75c6b710e5a4ec7f44f2aaab24c50f1",
   "parameters": {
    "dimensionality": {
     "beta_per_period_deg": 3.0,
@@ -71,7 +71,7 @@
    },
    "diagnostic": "completeness/smoothness (median rel error + coverage + smoothness)"
   },
-  "generated": "2026-08-24T04:45:40.454547+00:00",
+  "generated": "2026-08-25T00:15:48.024485+00:00",
   "input_file": "C4.edi",
   "input_sha256": "c158044f5437c687baf98bc087f7adde16877a18ab6539029d3eec183fe7b997"
  },
@@ -85,32 +85,32 @@
   "copyright.release_status=Data Citation Required; conditions_of_use set from licence CC-BY-4.0 (replaced mt_metadata default boilerplate)"
  ],
  "frame": {
-  "convention_check": {
-   "detail": null,
-   "n_periods_used": 5,
-   "phs_xy_median_deg": 46.78,
-   "phs_yx_median_deg": -136.84,
-   "verdict": "ok"
-  },
-  "declared_azimuth_deg": 0.0,
-  "derotated": false,
   "evidence": {
    "branch": "mt",
-   "emeas_azimuths": {
-    "ex": null,
-    "ey": null
-   },
+   "zrot": "0",
+   "trot": null,
+   "rotspec": null,
    "hmeas_azimuths": {
     "hx": 0.0,
     "hy": 90.0
    },
-   "rotspec": null,
-   "trot": null,
-   "zrot": "0"
+   "emeas_azimuths": {
+    "ex": null,
+    "ey": null
+   }
   },
-  "frame_served": "declared-zero",
   "impedance_rotation_deg_source": null,
-  "tipper_rotation_deg_source": null
+  "tipper_rotation_deg_source": null,
+  "derotated": false,
+  "frame_served": "declared-zero",
+  "declared_azimuth_deg": 0.0,
+  "convention_check": {
+   "verdict": "ok",
+   "phs_xy_median_deg": 46.78,
+   "phs_yx_median_deg": -136.84,
+   "n_periods_used": 5,
+   "detail": null
+  }
  },
  "runs": [
   {
@@ -121,15 +121,15 @@
    },
    "sample_rate_hz": 1000.0,
    "data_logger": {
-    "identifiers": [
-     {
-      "identifier": "10.82388/f5myu87y",
-      "scheme": "DOI"
-     }
-    ],
     "manufacturer": "LEMI",
     "model": "LEMI-423",
-    "serial_number": "#0044"
+    "serial_number": "#0044",
+    "identifiers": [
+     {
+      "scheme": "DOI",
+      "identifier": "10.82388/f5myu87y"
+     }
+    ]
    },
    "channels": [
     {
@@ -138,8 +138,8 @@
      "dipole_length_m": 44.0,
      "contact_resistance": {
       "source_value": "0.8 kilo-ohms",
-      "unit": "ohm",
-      "value": 800.0
+      "value": 800.0,
+      "unit": "ohm"
      }
     },
     {
@@ -148,38 +148,38 @@
      "dipole_length_m": 48.0,
      "contact_resistance": {
       "source_value": "0.63 kilo-ohms",
-      "unit": "ohm",
-      "value": 630.0
+      "value": 630.0,
+      "unit": "ohm"
      }
     },
     {
      "component": "hx",
      "measurement_azimuth_deg": 0.0,
      "sensor": {
-      "identifiers": [
-       {
-        "identifier": "10.82388/e83x00fe",
-        "scheme": "DOI"
-       }
-      ],
       "manufacturer": "LEMI",
       "model": "LEMI-120",
-      "serial_number": "259"
+      "serial_number": "259",
+      "identifiers": [
+       {
+        "scheme": "DOI",
+        "identifier": "10.82388/e83x00fe"
+       }
+      ]
      }
     },
     {
      "component": "hy",
      "measurement_azimuth_deg": 90.0,
      "sensor": {
-      "identifiers": [
-       {
-        "identifier": "10.82388/dop3lg6a",
-        "scheme": "DOI"
-       }
-      ],
       "manufacturer": "LEMI",
       "model": "LEMI-120",
-      "serial_number": "258"
+      "serial_number": "258",
+      "identifiers": [
+       {
+        "scheme": "DOI",
+        "identifier": "10.82388/dop3lg6a"
+       }
+      ]
      }
     }
    ]
@@ -419,6 +419,31 @@
      "identifies": "level2"
     }
    ]
+  },
+  {
+   "id": "ts-raw_packed",
+   "kind": "time_series",
+   "format": "zip",
+   "provenance_role": "source",
+   "representation_role": "original",
+   "access_url": "https://thredds.nci.org.au/thredds/fileServer/my80/AuScope_MT_collection/AuScope_Broadband/States_and_Territories/South_Australia/NVP_2019/Packed_Raw_Time_Series_Archive/C4.zip",
+   "repository": "NCI",
+   "processing_level": "raw",
+   "packaging": "packed_archive",
+   "bytes": 3303000000,
+   "related_collection_identifiers": [
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/7vwr-da74",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/kyst-xw53",
+     "identifies": "raw_packed"
+    }
+   ],
+   "note": "verified against NCI THREDDS on 2026-08-24"
   }
  ]
 }

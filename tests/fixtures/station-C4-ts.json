@@ -44,20 +44,20 @@
   "note": "survey.name = Newer Volcanic Province BBMT\nsurvey.project = NVP_2019\nsurvey.acquired_by.author = Samuel Jennings, Ben Kay, Goran Boren, Matthew Linke\nsurvey.acquired_by.organization = University of Adelaide\nsurvey.project_lead.author = Graham Heinson\nsurvey.project_lead.email = [email removed]\nsurvey.project_lead.organization = University of Adelaide\nsurvey.funding_source.organization = AuScope\nsurvey.country = Australia\nsurvey.state = SA; VIC\nsurvey.datum = WGS84\nsurvey.release_license = CC-BY-4.0\nsurvey.citation_journal.doi = https://doi.org/10.1038/s41598-023-32403-z\nausmt.scholarly.status = no curated survey.yaml at build; scholarly section omitted (CSV-only survey)\nstation.id = C4\nstation.geographic_name = Limestone Coast\nstation.data_type = BBMT\nstation.channels_recorded = Ex, Ey, Hx, Hy\nstation.orientation.reference_frame = geomagnetic\nstation.location.declination.value = 9.5\nstation.location.declination.model = IGRF-13 (2017), pyIGRF\nstation.time_period.start = 2019-08-21T13:49:38.000000+00:00\nstation.time_period.end = 2019-08-23T10:49:14.102000+00:00\nrun.id = C4_001\nrun.data_logger.manufacturer = LEMI\nrun.data_logger.model = LEMI-423\nrun.data_logger.id = #0044\nrun.data_logger.doi = https://doi.org/10.82388/f5myu87y\nrun.data_logger.firmware.version = 2.1\nrun.data_logger.timing_system.type = GPS\nrun.data_logger.power_source.type = pb-acid gel cell\nrun.sample_rate = 1000\nrun.ex.dipole_length = 44\nrun.ex.measurement_azimuth = 0\nrun.ex.contact_resistance.start = 0.8 kilo-ohms\nrun.ex.dc_offset.start = 2.5 millivolts\nrun.ex.electrode.type = Cu-CuSO4 (LEMI Lemi-701)\nrun.ey.dipole_length = 48\nrun.ey.measurement_azimuth = 90\nrun.ey.contact_resistance.start = 0.63 kilo-ohms\nrun.ey.dc_offset.start = 12.3 millivolts\nrun.ey.electrode.type = Cu-CuSO4 (LEMI Lemi-701)\nrun.hx.sensor.manufacturer = LEMI\nrun.hx.sensor.model = LEMI-120\nrun.hx.sensor.id = 259\nrun.hx.sensor.doi = https://doi.org/10.82388/e83x00fe\nrun.hx.measurement_azimuth = 0\nrun.hy.sensor.manufacturer = LEMI\nrun.hy.sensor.model = LEMI-120\nrun.hy.sensor.id = 258\nrun.hy.sensor.doi = https://doi.org/10.82388/dop3lg6a\nrun.hy.measurement_azimuth = 90\nbattery.type = Sonnenschein GF 12 63 Y\nbattery.voltage.start = 12.64\ntransfer_function.software.name = LEMIMT\ntransfer_function.software.version = 1.4.6\ntransfer_function.processing_type = Robust Remote Reference\ntransfer_function.sign_convention = exp(+ i\\omega t)\noriginal_program.name = Geotools\noriginal_program.version = 4.0.5.12583\noriginal_program.role = field data management and EDI export\nprovenance.creator.organization = University of Adelaide\nprovenance.submitter.author = Ben Kay\nprovenance.creation_time = 2026-07-15\ncopyright.conditions_of_use = Released under CC-BY-4.0. Cite the survey DOI where given and\nacknowledge the University of Adelaide.\nstation.comments = bad electrics; note: HZ/RX/RY channel declarations are exporter template\nartifacts; Hz was not recorded; no tipper data present\noriginal_processing.site_string = C4\nnote: original INFO block replaced 2026-07-15; its decimal coordinates were corrupt (DMS\nsign-conversion bug) and were removed\nausmt.lineage.origin_chain = field acquisition to Geotools 4.0.5.12583 EDI export to cleaned\nfield-metadata sheet to EDI header enrichment (NCI package) to AusMT corpus\nausmt.lineage.source_input_file = C4.edi\nausmt.lineage.source_input_sha256 = 5b6a5f10ec8c86adee6593844f9d76f6f4f826df462746a5cba3be5aa32363f6\nausmt.lineage.source_filedate = 07/15/26\nausmt.lineage.source_fileby = LEMI\nausmt.lineage.pipeline_version = v2.0\nausmt.lineage.pipeline_run_date = 2026-07-21"
  },
  "distribution": {
-  "edi_available": false,
+  "edi_available": true,
   "license": "CC-BY-4.0",
-  "edi_path": null
+  "edi_path": "edi/newer-volcanic-province-2019/C4.edi"
  },
  "provenance": {
   "pipeline": "ausmt/extract.build_portal",
   "pipeline_version": "0.2.1",
   "extractor": "mt_metadata (community canonical)",
   "software": {
-   "python": "3.12.7",
+   "python": "3.12.14",
    "mt_metadata": "1.0.9",
    "mth5": "0.6.8"
   },
-  "git_commit": "4f337e2",
+  "git_commit": "dc48b0caf75c6b710e5a4ec7f44f2aaab24c50f1",
   "parameters": {
    "dimensionality": {
     "beta_per_period_deg": 3.0,
@@ -71,12 +71,19 @@
    },
    "diagnostic": "completeness/smoothness (median rel error + coverage + smoothness)"
   },
-  "generated": "2026-08-24T09:40:35.161838+00:00",
+  "generated": "2026-08-25T00:15:48.024485+00:00",
   "input_file": "C4.edi",
   "input_sha256": "c158044f5437c687baf98bc087f7adde16877a18ab6539029d3eec183fe7b997"
  },
  "coordinate_qc": null,
- "canonical_conditioning": null,
+ "canonical_conditioning": [
+  "survey.id->newer-volcanic-province-2019",
+  "sign_convention: 'exp(+ i\\omega t)' is a library default \u2014 EDI carries no machine-readable sign convention; NOT asserted by source",
+  "declination.epoch/model: library defaults (epoch=None, model=IGRF-13 (2017), pyIGRF) \u2014 an EDI states only the declination value; epoch/model NOT asserted by source",
+  "citation.authors<-survey_meta:Samuel Jennings; Ben Kay; Graham Heinson; Goran Boren",
+  "citation.title<-survey_meta",
+  "copyright.release_status=Data Citation Required; conditions_of_use set from licence CC-BY-4.0 (replaced mt_metadata default boilerplate)"
+ ],
  "frame": {
   "evidence": {
    "branch": "mt",
@@ -179,6 +186,240 @@
   }
  ],
  "resources": [
+  {
+   "id": "edi",
+   "kind": "transfer_function",
+   "format": "edi",
+   "provenance_role": "source",
+   "representation_role": "original",
+   "path": "edi/newer-volcanic-province-2019/C4.edi",
+   "related_collection_identifiers": [
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/xswv-5069",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/pa35-es20",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/7vwr-da74",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/kyst-xw53",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/wxkq-hj14",
+     "identifies": "level2"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/z3bz-dm23",
+     "identifies": "level2"
+    }
+   ]
+  },
+  {
+   "id": "emtfxml",
+   "kind": "transfer_function",
+   "format": "emtfxml",
+   "provenance_role": "derived",
+   "representation_role": "alternate",
+   "path": "xml/newer-volcanic-province-2019/C4.xml",
+   "related_collection_identifiers": [
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/xswv-5069",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/pa35-es20",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/7vwr-da74",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/kyst-xw53",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/wxkq-hj14",
+     "identifies": "level2"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/z3bz-dm23",
+     "identifies": "level2"
+    }
+   ]
+  },
+  {
+   "id": "mth5",
+   "kind": "transfer_function",
+   "format": "mth5",
+   "provenance_role": "derived",
+   "representation_role": "alternate",
+   "path": "h5/newer-volcanic-province-2019/C4.h5",
+   "related_collection_identifiers": [
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/xswv-5069",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/pa35-es20",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/7vwr-da74",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/kyst-xw53",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/wxkq-hj14",
+     "identifies": "level2"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/z3bz-dm23",
+     "identifies": "level2"
+    }
+   ]
+  },
+  {
+   "id": "edi-zip",
+   "kind": "archive",
+   "format": "zip",
+   "path": "bundles/newer-volcanic-province-2019-edi.zip",
+   "related_collection_identifiers": [
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/xswv-5069",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/pa35-es20",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/7vwr-da74",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/kyst-xw53",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/wxkq-hj14",
+     "identifies": "level2"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/z3bz-dm23",
+     "identifies": "level2"
+    }
+   ]
+  },
+  {
+   "id": "xml-zip",
+   "kind": "archive",
+   "format": "zip",
+   "path": "bundles/newer-volcanic-province-2019-xml.zip",
+   "related_collection_identifiers": [
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/xswv-5069",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/pa35-es20",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/7vwr-da74",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/kyst-xw53",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/wxkq-hj14",
+     "identifies": "level2"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/z3bz-dm23",
+     "identifies": "level2"
+    }
+   ]
+  },
+  {
+   "id": "survey-mth5",
+   "kind": "archive",
+   "format": "mth5",
+   "path": "bundles/newer-volcanic-province-2019-tf.h5",
+   "related_collection_identifiers": [
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/xswv-5069",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/pa35-es20",
+     "identifies": "collection"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/7vwr-da74",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/kyst-xw53",
+     "identifies": "raw_packed"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/wxkq-hj14",
+     "identifies": "level2"
+    },
+    {
+     "scheme": "DOI",
+     "identifier": "10.25914/z3bz-dm23",
+     "identifies": "level2"
+    }
+   ]
+  },
   {
    "id": "ts-raw_packed",
    "kind": "time_series",

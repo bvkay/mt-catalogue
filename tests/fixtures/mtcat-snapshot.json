@@ -6,7 +6,7 @@
   "version": "2.0",
   "schema_url": "mtcat.schema.json",
   "metadata_license": "CC0-1.0",
-  "generated_at": "2026-08-24T06:04:16Z"
+  "generated_at": "2026-08-25T02:08:03Z"
  },
  "surveys": [
   {
@@ -332,7 +332,8 @@
     "emtfxml",
     "mth5",
     "xml-zip"
-   ]
+   ],
+   "n_stations_time_series_verified": 49
   },
   {
    "survey_id": "vulcan-2024-25",
@@ -2547,343 +2548,392 @@
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.28065,
    "longitude": 140.252869,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.A2",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.431256,
    "longitude": 140.479858,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.A3",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.561275,
    "longitude": 140.749358,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.A4",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.655861,
    "longitude": 140.954758,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.A5",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.824958,
    "longitude": 141.259767,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.A7",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.050011,
    "longitude": 141.690994,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.A8",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.207492,
    "longitude": 141.945222,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.A9",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.307142,
    "longitude": 142.143678,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.B1",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.476456,
    "longitude": 140.175553,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.B2",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.578444,
    "longitude": 140.245742,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.B3",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.720397,
    "longitude": 140.571792,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.B4",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.886497,
    "longitude": 140.828919,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.B5",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.983597,
    "longitude": 141.063339,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.B6",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.128953,
    "longitude": 141.337036,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.B7",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.223281,
    "longitude": 141.499467,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.B8",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.376889,
    "longitude": 141.757539,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.B9",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.526119,
    "longitude": 142.0,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.C2",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.806728,
    "longitude": 140.231628,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.C3",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.963172,
    "longitude": 140.45375,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.C4",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.0699,
    "longitude": 140.678117,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.C5",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.191036,
    "longitude": 140.880692,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.C6",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.318508,
    "longitude": 141.146911,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.C7",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.429692,
    "longitude": 141.339706,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.C8",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.542714,
    "longitude": 141.616653,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.C9",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.674644,
    "longitude": 141.823258,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.D1",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.841264,
    "longitude": 139.916667,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.D2",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.0037,
    "longitude": 140.110244,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.D3",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.121136,
    "longitude": 140.325744,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.D5",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.403947,
    "longitude": 140.7966,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.D6",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.518775,
    "longitude": 141.006347,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.D7",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.631181,
    "longitude": 141.227494,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.D8",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.760242,
    "longitude": 141.488297,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.D9",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.871553,
    "longitude": 141.7,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.E1",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -36.990303,
    "longitude": 139.762803,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.E2",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.176781,
    "longitude": 139.9,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.E3",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.288131,
    "longitude": 140.166667,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.E4",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.439347,
    "longitude": 140.366242,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.E5",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.569053,
    "longitude": 140.563186,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.E6",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.704994,
    "longitude": 140.792161,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.E7",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.831458,
    "longitude": 141.066667,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.E8",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.955106,
    "longitude": 141.294997,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.E9",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -38.055797,
    "longitude": 141.464128,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.F2",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.362817,
    "longitude": 140.037719,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.F4",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.579128,
    "longitude": 140.290939,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.F5",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.745281,
    "longitude": 140.510772,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.F7",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -38.006794,
    "longitude": 140.938339,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.F8",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -38.073228,
    "longitude": 141.173539,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.F9",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -38.238567,
    "longitude": 141.388931,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.newer-volcanic-province-2019.G6",
    "survey_id": "newer-volcanic-province-2019",
    "latitude": -37.959111,
    "longitude": 140.554778,
-   "data_type": "BBMT"
+   "data_type": "BBMT",
+   "has_time_series": true
   },
   {
    "station_id": "au.vulcan-2024-25.Vul24-13",

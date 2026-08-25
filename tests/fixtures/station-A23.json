@@ -57,7 +57,7 @@
    "mt_metadata": "1.0.9",
    "mth5": "0.6.8"
   },
-  "git_commit": "0d8f0d5d05cd19c0109c3b5c6f2774f1565b0a51",
+  "git_commit": "dc48b0caf75c6b710e5a4ec7f44f2aaab24c50f1",
   "parameters": {
    "dimensionality": {
     "beta_per_period_deg": 3.0,
@@ -71,7 +71,7 @@
    },
    "diagnostic": "completeness/smoothness (median rel error + coverage + smoothness)"
   },
-  "generated": "2026-08-24T04:45:40.454547+00:00",
+  "generated": "2026-08-25T00:15:48.024485+00:00",
   "input_file": "A23.edi",
   "input_sha256": "982e43e3224509e3b6f58abfafe548e3893dc053414a4da17b1edb4683b79847"
  },
@@ -85,32 +85,32 @@
   "copyright.release_status=Data Citation Required; conditions_of_use set from licence CC-BY-4.0 (replaced mt_metadata default boilerplate)"
  ],
  "frame": {
-  "convention_check": {
-   "detail": null,
-   "n_periods_used": 33,
-   "phs_xy_median_deg": 63.26,
-   "phs_yx_median_deg": -140.97,
-   "verdict": "ok"
-  },
-  "declared_azimuth_deg": 0.0,
-  "derotated": false,
   "evidence": {
    "branch": "mt",
-   "emeas_azimuths": {
-    "ex": null,
-    "ey": null
-   },
+   "zrot": "0",
+   "trot": "0",
+   "rotspec": null,
    "hmeas_azimuths": {
     "hx": 0.0,
     "hy": 90.0
    },
-   "rotspec": null,
-   "trot": "0",
-   "zrot": "0"
+   "emeas_azimuths": {
+    "ex": null,
+    "ey": null
+   }
   },
-  "frame_served": "declared-zero",
   "impedance_rotation_deg_source": null,
-  "tipper_rotation_deg_source": null
+  "tipper_rotation_deg_source": null,
+  "derotated": false,
+  "frame_served": "declared-zero",
+  "declared_azimuth_deg": 0.0,
+  "convention_check": {
+   "verdict": "ok",
+   "phs_xy_median_deg": 63.26,
+   "phs_yx_median_deg": -140.97,
+   "n_periods_used": 33,
+   "detail": null
+  }
  },
  "runs": [
   {
